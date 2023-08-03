@@ -1,2 +1,3 @@
+#!/bin/bash
 for file in *.html; do
     if [ "$file" -nt "../$file" ]; 
