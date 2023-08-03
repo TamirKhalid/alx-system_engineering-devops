@@ -1,2 +1,2 @@
-#!/bin/bashi
-cp -v *.html ../../
+#!/bin/bash
+cp -u *.html ../
