@@ -1,2 +1,2 @@
 #!/bin/bash
-spawn su - betty 
+su - betty 
