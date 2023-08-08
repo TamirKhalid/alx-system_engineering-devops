@@ -1,3 +1,2 @@
 #!/bin/bash
 alias list="ls -l"
-echo "Alias created: list = ls -l"
