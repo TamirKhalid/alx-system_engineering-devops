@@ -1,7 +1,2 @@
 #!/bin/bash
-IFS=:
-count=0
-for dir in $PATH; do
-  count=$((count+1))
-done
-echo "There are $count directories in the PATH"
+echo $((' echo $path | grep -o ":/" | wc -1 ' +1))
