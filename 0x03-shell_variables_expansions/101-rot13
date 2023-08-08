@@ -1,6 +1,2 @@
 #!/bin/bash
-echo "Original text: $text"
-encoded=$(echo "$text" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
-echo "Encoded text: $encoded"
-decoded=$(echo "$encoded" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
-echo "Decoded text: $decoded"
+encoded=$(echo "Hello world!" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
